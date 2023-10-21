@@ -1,0 +1,17 @@
+@media (max-width: 640px) {
+    main {
+        width: 350px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    article h1 {
+        font-size: 1em;
+        text-align: left;
+    }
+
+    section img {
+        max-width: 130px;
+        border-radius: 45%;
+    }
+}

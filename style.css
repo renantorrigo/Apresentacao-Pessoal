@@ -1,0 +1,108 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor0: #400124;
+    --cor1: #ff0707;
+    --cor2: #daa4c6;
+    --cor3: #0D0D0D;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--cor3);
+    color: white;
+}
+
+main {
+    display: flex;
+    gap: 18px;
+    max-width: 650px;
+    margin: auto;
+    margin-top: 10%;
+    padding: 8px;
+}
+
+article {
+    max-width: 450px;
+    text-align: justify;
+}
+
+article h1 {
+    margin-bottom: 7px;
+    font-size: 1.4em; 
+}
+
+article strong.h1-cor {
+    color: var(--cor1);
+}
+
+article p {
+    font-size: 0.8em;
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+
+button {
+    margin-left: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: var(--cor2);
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor1);
+    font-size: 2em;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #f80404;
+}
+
+section img {
+    max-width: 200px;
+}
+
+.Contatos {
+padding: 0px;
+text-align: end;
+cursor: var(--cor1);
+
+}
+
+.Contatos svg {
+    margin-right: 50px;
+   
+       
+}
+
+.Contatos svg + svg {
+    margin-inline: 30px;
+  }
+
+  .botão-linkedin {
+color: #fdfdfd;
+  }
+
+  .botão-instagram {
+    color: #fdfdfd;
+      }
+
+      .botão-whats {
+        color: #fdfdfd;
+          }
+
+          .botão-git {
+            color: #fdfdfd;
+              }
+
